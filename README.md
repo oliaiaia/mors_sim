@@ -2,8 +2,11 @@ Added docker for simulating a robotic dog from the Volt brothers.
 Have created during 3 dayas hackaton so maybe there are a lot of bugs... 
 
 Change path in 77 line in Dockerfile.
+
 Make ``` xhost +local:docker ``` for gui
+
 Make ```  docker build ~/path_to_project/mors_sim -t noetic ``` for build
+
 Make ``` docker run -it --rm --env="DISPLAY" --volume="/home/path_to_project/mors_sim/:/home/path_to_project/mors_sim/"  -v /tmp/.X11-unix:/tmp/.X11-unix noetic:latest ``` for start
 
 Have tested in ubuntu 24:
