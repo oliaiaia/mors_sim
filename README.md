@@ -1,4 +1,6 @@
 Added docker for simulating a robotic dog from the Volt brothers. 
+Have created during 3 dayas hackaton so maybe there are a lot of bugs... 
+
 Change path in 77 line in Dockerfile.
 
 Have tested in ubuntu 24:
